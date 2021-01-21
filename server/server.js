@@ -7,7 +7,7 @@ const apiroutes = require('./routes');
     app.use(express.json());
     app.use("/api", apiroutes);
     app.listen(process.env.PORT || 2244, () => {
-          // console.log(`Listening on port: ${process.env.PORT || 2244}`);
+           console.log(`Listening on port: ${process.env.PORT || 2244}`);
         }); 
 
 function createServer() {
