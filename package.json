@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon server/server.js -w server",
-    "start": "node server/server.js",
+    "start": "npx nodemon server/server.js -w server",
     "test-dev": "jest"
   },
   "keywords": [],
