@@ -8,7 +8,7 @@ const apiroutes = require('./routes');
 
 const app = express();
 app.use(enforce.HTTPS({ trustProtoHeader: true }));//
-app.use(serverStatic(path.join(__dirname, '/dist')));//
+app.use(serverStatic(path.resolve(__dirname, '/dist')));//
 app.use(history());//
 app.use(express.json());
 app.use('/api', apiroutes);
