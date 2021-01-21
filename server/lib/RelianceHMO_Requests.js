@@ -1,4 +1,4 @@
-const request = require('../lib/Request');
+const request = require('./Request');
 const { Handler, ApiErrors, ModuleError } = require('./errors');
 
 const trigger = async ({
