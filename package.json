@@ -2,11 +2,11 @@
   "name": "Health_Plan_Signup_API--node",
   "version": "1.0.0",
   "description": "",
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon server/server.js -w server",
-    "start": "npx nodemon server.js",
+    "start": "node server.js",
     "test-dev": "jest"
   },
   "keywords": [],
