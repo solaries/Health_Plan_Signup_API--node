@@ -1,1 +1,4 @@
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/672eb8b413d74addbf0f0d0b9670d45d)](https://app.codacy.com/gh/solaries/Health_Plan_Signup_API--node?utm_source=github.com&utm_medium=referral&utm_content=solaries/Health_Plan_Signup_API--node&utm_campaign=Badge_Grade)
+
 This API accepts customer information, validates it's uniqueness and if successful it would allow procession to the next functionality. It passes the receieved customer information to the reliance HMO web service for signup. After it gets a successful response from the web service it saves the details to the database. After this it responds to the caller with the status of the call which is either a successfull message, an error message according to what it received from the reliance HMO web service (or an interal error) or a messaging stating the customer information is a duplicate.
